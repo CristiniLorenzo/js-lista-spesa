@@ -19,3 +19,11 @@ for (let i = 0; i < list.length; i++){
     let myList = document.getElementById("list").innerHTML += `<li>${list[i]}</li>`;
 }
 
+// CON CICLO WHILE 
+
+let i = 0;
+while(i <list.length){
+    let myList = document.getElementById("list").innerHTML += `<li>${list[i]}</li>`;
+
+    i++;
+}
